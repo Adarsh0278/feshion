@@ -5,6 +5,7 @@
 }
 body{
     font-family: "Montserrat", serif;
+    background-color: #2e2d2d;
 }
 
 /*Start Top Bar */
@@ -48,31 +49,96 @@ body{
 }
 /*End Top Bar */
 
+/* Start Nab Bar */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5% 8%;
+    background-color: aqua;
+    color: #333333;
+}
+#menu{
+    display: none;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+    gap: 1.6vw;
+}
+
+.list ul div{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.list ul li a{
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 550;
+    color: #333333;
+
+
+}
+
+.list ul div input{
+    width: 80%;
+    border: none;
+    outline: none;
+    height: 25px;
+    background-color: white;
+    padding: 0px 5px;
+    border-radius: 3px 0px 0px 3px;
+    
+}
+
+.list ul div i{
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 0px 3px 3px 0px;
+    color: #2e2d2d;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+
+}
 
 
 
 
 
+@media only screen and (max-width: 1000px) {
+    body{
+        background-color: blueviolet;
+    }
+   .list ul div input{
+    display: none;
+   }
+   .list ul div i{
+    background-color: transparent;
+    font-weight: 990;
+    font-size: 1.2em;
+
+
+}
+}
 
 
 
-
-
-
-
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 850px) {
     body {
-      background-color: lightblue;
+      background-color: rgb(0, 0, 0);
+
     }
 
-/*Start Top Bar */
-    
     .card div{
         display: none;
     }
+
     .card{
     margin-left: 0px;
+    }
+
     .login{
         margin-left: 0px;
     }
@@ -80,19 +146,36 @@ body{
     .card i{
         margin-right: 10%;
     }
-/*End Top Bar */
+    
+    .list ul{
+        gap: 8vw;
+    }
+    
+   .list ul li{
+    display: none;
+   }
+   #menu{
+    font-size: 1.2em;
+    font-weight: 990;
+    display: block;
+
+   }
+
+}
 
 
 
 
-  }
+
+
+
+
+
 
   @media only screen and (max-width: 500px) {
     body{
         background-color: chartreuse;
     }
-
-/*Start Top Bar */
 
     #tob-bar{
         justify-content: space-evenly;
@@ -100,7 +183,4 @@ body{
     .login{
         gap: 13%;
     }
-/*End Top Bar */
   }
-
-  
