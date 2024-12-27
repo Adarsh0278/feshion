@@ -5,7 +5,8 @@
 }
 body{
     font-family: "Montserrat", serif;
-    background-color: #2e2d2d;
+    /* background-color: #2e2d2d; */
+    background-color: #f8f8f8;
 }
 
 /*Start Top Bar */
@@ -29,6 +30,7 @@ body{
     margin-left: 10%;
 
 }
+
 .card{
     display: flex;
     background-color: #00c8c8;
@@ -47,15 +49,21 @@ body{
 .card i{
     font-size: 1.5em;
 }
-/*End Top Bar */
 
 /* Start Nab Bar */
+
+.hero-setion-bg img{
+    position: absolute;
+    width: 60%;
+    z-index: -1;
+}
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 1.5% 8%;
-    background-color: aqua;
+    padding: 1.5% 4%;
     color: #333333;
+    position: relative;
 }
 #menu{
     display: none;
@@ -64,12 +72,15 @@ body{
     display: flex;
     list-style: none;
     gap: 1.6vw;
+    align-items: center;
 }
 
 .list ul div{
     display: flex;
     margin: auto;
     align-items: center;
+    border: 2px solid #e3e2e2;
+    margin-left: 3vw;
 }
 .list ul li a{
     text-decoration: none;
@@ -98,89 +109,48 @@ body{
     border-radius: 0px 3px 3px 0px;
     color: #2e2d2d;
     height: 25px;
-    text-align: center;
-    justify-content: center;
-
+    display: flex;
+    align-items: center;
 }
 
+/* Start Hero Section */
 
-
-
-
-@media only screen and (max-width: 1000px) {
-    body{
-        background-color: blueviolet;
-    }
-   .list ul div input{
-    display: none;
-   }
-   .list ul div i{
-    background-color: transparent;
-    font-weight: 990;
-    font-size: 1.2em;
-
-
+.hero-section{
+    z-index: 999;
+    /* background-color: #00c8c8; */
 }
+.heading{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    /* background-color: #00c8c8; */
+    margin-top: 6%;
+    color: #2e2d2d;
 }
 
-
-
-@media only screen and (max-width: 850px) {
-    body {
-      background-color: rgb(0, 0, 0);
-
-    }
-
-    .card div{
-        display: none;
-    }
-
-    .card{
-    margin-left: 0px;
-    }
-
-    .login{
-        margin-left: 0px;
-    }
-
-    .card i{
-        margin-right: 10%;
-    }
-    
-    .list ul{
-        gap: 8vw;
-    }
-    
-   .list ul li{
-    display: none;
-   }
-   #menu{
-    font-size: 1.2em;
-    font-weight: 990;
-    display: block;
-
-   }
-
+.hero-section h1{
+    font-size: 32vw;
+    font-weight:700;
+   
 }
 
+.callection{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.hero-section div p{
+    border: 2px solid #2e2d2d;
+    display: inline;
+    padding: 15px 25px ;
+    margin-right: 8%;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
-  @media only screen and (max-width: 500px) {
-    body{
-        background-color: chartreuse;
-    }
-
-    #tob-bar{
-        justify-content: space-evenly;
-    }
-    .login{
-        gap: 13%;
-    }
-  }
+.hero-section div p:hover{
+    background-color: #2e2d2d;
+    color: white;
+    font-size: 1.1em;
+}

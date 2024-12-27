@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1000px) {
+    body{
+        /* background-color: blueviolet; */
+    }
+   
+    .list ul div {
+        border: none;
+    }
+    
+    .list ul div input{
+    display: none;
+   }
+
+   .list ul div i{
+    background-color: transparent;
+    font-weight: 990;
+    font-size: 1.2em;
+    
+}
+.hero-setion-bg img{
+    width: 70%;
+}
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 850px) {
+    body {
+      /* background-color: rgb(104, 99, 99); */
+
+    }
+
+    .card div{
+        display: none;
+    }
+
+    .card{
+    margin-left: 0px;
+    }
+
+    .login{
+        margin-left: 0px;
+    }
+
+    .card i{
+        margin-right: 10%;
+    }
+    
+    .list ul{
+        gap: 8vw;
+    }
+    
+   .list ul li{
+    display: none;
+   }
+   #menu{
+    font-size: 1.2em;
+    font-weight: 990;
+    display: block;
+
+   }
+
+   .callection{
+    justify-content: center;
+}
+
+    .hero-section div p{
+        margin-right: 0%;
+    }
+}
+
+
+
+  @media only screen and (max-width: 450px) {
+    body{
+        /* background-color: chartreuse; */
+    }
+
+    #tob-bar{
+        justify-content: space-evenly;
+    }
+    .login{
+        gap: 13%;
+    }
+    .hero-setion-bg{
+        /* width: 60%;/ */
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+    }
+   
+    .hero-section div p{
+        margin-right: 0%;
+        display: inline;
+        padding: 3px 5px ;
+        background-color: #2e2d2d;
+        color: white;
+        font-size: 0.8em;
+}
+    }
+
+    .hero-section div p:hover{
+        font-size: 0.9em;
+    }
+
+  }
+
+
+
