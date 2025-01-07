@@ -22,16 +22,17 @@
 }
 
 
-
+.line hr{
+    margin-top: 8%;
+}
 
 }
 
 
 
-
 @media only screen and (max-width: 850px) {
     body {
-      /* background-color: rgb(104, 99, 99); */
+      background-color: rgb(104, 99, 99);
 
     }
 
@@ -72,13 +73,30 @@
     .hero-section div p{
         margin-right: 0%;
     }
+
+    .items-list ul{
+        width: 100%;
+        /* background-color: #2e2d2d; */
+        padding-right: 5%;
+    }
+
+    .items-list ul{
+        padding: 0px 0px 0px 5% ;
+    }
+    
+    .subitem-1{
+        justify-content: center;
+    }
+    
+    
+    
 }
 
 
 
   @media only screen and (max-width: 450px) {
     body{
-        /* background-color: chartreuse; */
+        background-color: chartreuse;
     }
 
     #tob-bar{
@@ -104,10 +122,9 @@
 }
     }
 
-    .hero-section div p:hover{
-        font-size: 0.9em;
+    .subitem-2 img{
+        width: 300px;
     }
-
   }
 
 
