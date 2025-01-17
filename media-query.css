@@ -87,9 +87,6 @@
 
 
   @media only screen and (max-width: 450px) {
-    body{
-        background-color: chartreuse;
-    }
 
     #tob-bar{
         justify-content: space-evenly;
