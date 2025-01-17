@@ -1,8 +1,5 @@
 @media only screen and (max-width: 1000px) {
-    body{
-        /* background-color: blueviolet; */
-    }
-   
+
     .list ul div {
         border: none;
     }
@@ -31,11 +28,6 @@
 
 
 @media only screen and (max-width: 850px) {
-    body {
-      /* background-color: rgb(104, 99, 99); */
-
-    }
-
     .card div{
         display: none;
     }
@@ -125,9 +117,6 @@
         width: 300px;
     }
 
-
-    
-  }
 
 
 
