@@ -32,7 +32,7 @@
 
 @media only screen and (max-width: 850px) {
     body {
-      background-color: rgb(104, 99, 99);
+      /* background-color: rgb(104, 99, 99); */
 
     }
 
@@ -125,6 +125,9 @@
     .subitem-2 img{
         width: 300px;
     }
+
+
+    
   }
 
 

@@ -188,7 +188,7 @@ body{
 }
 .items-img{
     display: flex;
-    padding: 3% 7%;
+    padding: 3% 7%  1.5% 7%;
     flex-wrap: wrap;
     justify-content: space-evenly ;
 
@@ -219,4 +219,118 @@ body{
 }
 .sum33{
     margin-top: 6%;
+}
+
+.linetow{
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.linetow hr{
+    width: 90%;
+
+}
+
+.Look-book{
+    display: flex;
+    justify-content: space-around;
+    color: #2e2d2d;
+    flex-wrap: wrap;
+}
+
+.LookBook-1{
+    background-color: #eeeeee;   
+    display: flex;
+    align-items: center;
+    padding: 2% 2% 0% 2%;
+    width: 450px;
+    border-radius: 3px;
+
+}
+
+.LookBook-1 img{
+    width: 170px;
+}
+
+
+.LookBook-1,h2{
+    text-align: right;
+    font-size: 1.3em;
+}
+
+.LookBook-1 h3{
+    font-weight: 400;
+    text-align: right;
+    font-size: 1.3em;
+    
+}
+
+.LookBook-1 p{
+    font-size: 0.5em;
+    text-align: right;
+    line-height: 1.3em;
+    padding: 5% 0px;
+}
+
+.LookBook-1 button{
+    padding: 5% 8%;
+    font-size: 0.7em;
+    color: white;
+    border: none;
+    background-color: #00c8c8;
+    font-weight: 400;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #eeeeee;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1.8% 15%;
+    margin-top: 5%;
+    color: #2e2d2d;
+
+}
+
+.info div h4{
+    font-size: 0.7em;
+    line-height: 60px;    
+}
+.info div p{
+    font-size: 0.7em;
+    line-height: 20px;    
+
+}
+
+.footer-card{
+    display: flex;
+    padding: 2% 19%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-tex1t{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    background-color: #2e2d2d;
+    padding: 4%;
+    border-radius: 2px;
+}
+.footer-logo{
+    display: flex;
+    background-color: #00c8c8;
+    color: white;
+    align-items: center;
+    gap: 50px;
+    font-size: 3em;
+    padding: 0px 2%;
 }
